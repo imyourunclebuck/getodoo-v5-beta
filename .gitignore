@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+
+# Environment variables — NEVER commit
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Replit-specific
+.replit
+replit.nix
+.config/
+.upm/
+.cache/
+.local/
+skills-lock.json
+generated-icon.png
+
+# TypeScript
+*.tsbuildinfo
